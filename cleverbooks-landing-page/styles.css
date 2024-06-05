@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+#hero {
+    background-color: #f0f0f0;
+}
+
+.hero-image {
+    max-width: 100%; 
+    height: auto; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* I have added a subtle shadow effect */
+}
+
+.metric-img {
+    width: 150px; /* I have adjust the width as needed */
+    height: 150px; /* I have adjust the height as needed */
+    object-fit: cover; 
+}
+
+.feature-img {
+    height: 200px; /* I have adjust the height as needed */
+    object-fit: cover; 
+}
+
+#key-problems ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#key-problems li {
+    margin: 10px 0;
+}
+
+#key-metrics {
+    background-color: #f8f9fa; 
+    color: #000000;
+}
+
+#key-metrics p {
+    font-weight: bold;
+}
+
+
+#signup-btn {
+    background-color: #ff5722;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#signup-btn:hover {
+    background-color: #e64a19;
+}
+
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .metrics, .features {
+        flex-direction: column;
+    }
+}
